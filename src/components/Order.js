@@ -64,6 +64,7 @@ class Order extends Component {
           <button onClick={() => this.handleOrder(coffee._id, "Dec")}>-</button>
           <button onClick={() => this.handleOrder(coffee._id, "Inc")}>+</button>
           <img src={coffee.image} alt={coffee.name}/>
+          <p>{coffeeList.order.quantity}</p>
           <h4>{coffee.name}</h4>
           <p>R {coffee.price}</p>
 
